@@ -8,3 +8,4 @@ spec:
     targetPort: 9100
   selector:
     app: guestbook-ui
+  type: LoadBalancer
